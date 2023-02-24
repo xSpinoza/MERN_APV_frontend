@@ -1,0 +1,15 @@
+.loading{opacity:.2}
+
+.svgIcon{
+    width: 20px
+}
+
+.notification-head{
+    padding: 20px;
+}
+.notification-buttons{
+    padding: 20px;
+}
+.notification-head > h5{
+    border-bottom: 1px solid #615bda !important;
+}
