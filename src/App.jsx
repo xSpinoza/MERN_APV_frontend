@@ -18,7 +18,7 @@ import { PatientsProvider } from './context/PatientsProvider';
 
 function App(){
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/admin'>
       <PatientsProvider>
         <AuthProvider>
           <Routes>
