@@ -30,7 +30,7 @@ function App(){
               <Route path='confirm/:id' element={<ConfirmAccount/>}></Route>
             </Route>
 
-            <Route path='/admin/' element={<PrivateRoute/>}>
+            <Route path='/admin' element={<PrivateRoute/>}>
               <Route index element={<AdminPatients/>}></Route>
               <Route path='profile' element={<ProfileEdit/>}></Route>
               <Route path='change-password' element={<ChangePassword/>}></Route>
